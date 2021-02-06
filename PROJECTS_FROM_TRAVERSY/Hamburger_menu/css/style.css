@@ -1,0 +1,74 @@
+:root {
+  --primery-color: rgba(13,110,139,.75);
+  --secondery-color:rgba(229,148,0,.9);
+  --overlay-color:rgba(24,39,51,.85);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utility classes */
+
+.btn {
+  text-decoration: none;
+  color: #fff;
+  background: var(--primery-color);
+  padding: .75rem 1.2rem;
+  margin-top: 1rem;
+  transition: opacity .5s ease-in-out;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+#showcase {
+  /* background: url('../images/gatis-marcinkevics-a5uptAdUmjE-unsplash.jpg') no-repeat
+  center center/cover ; */
+  background: var(--primery-color);
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase h1 {
+  font-size: 4rem;
+}
+
+#showcase p {
+  font-size: 1.3rem;
+}
+
+#showcase:before {
+  content: '';
+  background: url('../images/gatis-marcinkevics-a5uptAdUmjE-unsplash.jpg') no-repeat
+  center center/cover ; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.container {
+  padding: 3rem;
+  max-width: 960px;
+  text-align: center;
+}
+
+.container h1, .container p {
+  margin: 2rem 0;
+}
+
+/* manu styling */
+

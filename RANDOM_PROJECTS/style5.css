@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+/* utility classes */
+.l-heading {
+ font-size: 2rem;
+ margin-bottom: .7rem;
+}
+
+.extra-height {
+  line-height: 4rem;
+}
+
+.extra-height2 {
+  line-height: 5rem;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+form {
+  font-size: 1.2rem;
+}
+
+.box {
+  background: palegreen;
+  height:250vh;
+
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+  height: 90%;
+  background: peachpuff;
+  border-radius: 13px;
+}
+
+.container h2 {
+  text-align: center;
+  padding-top: 4rem;
+  font-size: 2rem;
+  padding-bottom:3rem ;
+}
+
+.container .bisector {
+ display: flex;
+
+}
+.container .bisector label,
+.container .bisector input,
+.container .bisector select,
+.container .bisector div {
+  flex: 1;
+  margin: 1.5rem;
+  padding: .2rem;
+  line-height: 2rem;
+}
+
+.bisector textarea {
+  border-radius: 5px;
+  border-style: none;
+  border: 1px  solid;
+}
+.container .bisector select {
+  border-radius: 5px;
+  border-style: none;
+  padding: .5rem;
+  height: 40px;
+  width: 50%; 
+}
+
+.container .bisector label {
+  text-align: right;
+}
+
+.container .bisector .inputstyle {
+ border-radius: 5px;
+ border-style: none;
+ padding: .5rem;
+ height: 40px;
+ width: 50%; /*not sure why its not working*/
+}
+
+button {
+  width: 10%;
+  height: 30px;
+  margin-left: 45%;
+  margin-top: 3rem;
+  border-style: none;
+  border-radius: 5px;
+  background: palegreen;
+}
+
+button:hover {
+  background: lightgreen;
+}
+
+.box h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}

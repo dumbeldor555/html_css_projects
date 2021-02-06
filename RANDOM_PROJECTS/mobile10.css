@@ -1,0 +1,92 @@
+.btn {
+  padding: .8rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  letter-spacing: .1rem;
+}
+
+#section1 {
+  height: 120vh;
+  background: var(--green);
+}
+
+#section1 .bisector {
+  display: block;
+}
+
+#section1 .bisector header a {
+  text-align: center;
+  padding-top: 1.2rem;
+  letter-spacing: .5rem;
+  font-size: 1.8rem;
+}
+
+#section1 .bisector .date h2 {
+  margin: auto;
+  text-align: center;
+}
+
+#section1 .bisector .date nav ul {
+  width: 100%;
+  display: block;
+ }
+ 
+#section1 .bisector .date nav ul li {
+  text-align: center;
+  display: block;
+  margin: .6rem 0;
+}
+
+#section1 .intro h1,
+#section1 .intro p {
+  text-align: center;
+}
+ 
+#section1 .intro {
+  margin-top: 2rem;
+}
+
+#section2 {
+  display: block;
+  height: 180vh;
+  padding: 0 3rem;
+}
+
+#section2 .container {
+  width: 100%;
+  margin: auto;
+}
+
+#section2 .container .imgp {
+  height: 150px;
+  width: 240px;
+}
+
+#section2 .container .text h3 {
+  margin: .4rem 0;
+}
+
+#section2 .container h4 {
+  margin-top: 2rem;
+}  
+
+#section3 {
+  display: block;
+  height: 20vh;
+}
+
+#section3 .copyRight {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#section3 .navbar ul {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#section3 .navbar ul li {
+  margin: .3rem auto;
+  width: 20%;
+}

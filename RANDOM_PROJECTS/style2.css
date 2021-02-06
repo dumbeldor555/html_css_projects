@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #a9acba;
+}
+
+.intro h1,h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.intro h1 {
+  padding-top: 20px;
+}
+
+.intro p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.intro h1 {
+  color: #428BCA;
+}
+
+.intro h2 {
+  color: #2A623D;
+} 
+
+.intro img {
+  display: block;
+  margin: auto;
+}
+
+.facts {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.facts h3 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.facts .quote {
+  margin-top: 50px;
+}
+
+.facts .wikilink {
+  color: #2A623D ;
+}
+
+.facts ul li {
+  margin-bottom: 18px;
+  list-style-type: square;
+}

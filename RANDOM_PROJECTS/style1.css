@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+ 
+#image {
+    width: 950px;
+    height: 550px;
+    background-color: ghostwhite;
+    background-image: url(http://www.hdwallpapers.in/walls/steve_jobs-wide.jpg);
+    background-size:cover;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+ 
+.quotes {
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Caveat';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bio .timeline .header {
+  color:#C9B16B ;
+ margin: auto;
+ text-align: center;
+}
+
+#bio {
+  margin-top: 60px;
+}
+
+.timeline {
+  width: 65%;
+  float: left;
+  margin-right: 20px;
+}
+
+.timeline .date {
+  width: 20% ;
+  float: left;
+  margin-right: 20px;
+}
+
+.timeline .summary {
+  float: right;
+  width: 75%;
+ 
+ }
+
+.timeline .date ul> li {
+  list-style-type:none ;
+  font-family: 'Audiowide';
+  height: 110px;
+  padding:15px;
+   border-top: 1px #939598 solid ;
+}
+
+.timeline .summary ul>li {
+   list-style-type:none ;
+   font-family: 'Cutive Mono' ;
+   height: 110px;
+   padding: 15px;
+   border-top: 1px #808285 dashed ;
+  
+}
+
+.timeline .date ul {
+  margin-top: 80px;
+}
+
+.timeline .summary ul {
+  margin-top: 80px;
+  margin-left: 0px;
+}
+
+.timeline .date ul:last-child{
+  border-bottom: 1px black solid ;
+}
+
+.timeline .summary ul:first-child {
+  border-bottom: 1px black solid ;
+}
+ /* in a nutshell */
+ 
+ .inNutshell {
+  width: 30%;
+  float: right;
+  margin-right: 20px;
+  margin-top: 45px;
+ }
+
+ .inNutshell img {
+   display: block;
+   margin: auto;
+   margin-top: 30px;
+   margin-bottom: 20px;
+ }
+
+ .inNutshell h1 {
+   text-align: center;
+  }
+ 
+.inNutshell .stages ul>li{
+   height: 100px;
+   font-family: 'Audiowide';
+   list-style-type:none ;
+   padding: 15px;
+  
+
+}
+
+.inNutshell .stages-summary ul>li {
+  height: 100px;
+  list-style-type:none ;
+  font-family: 'Cutive Mono' ;
+  padding: 15px;
+  border-top: 1px #808285 dashed ;
+}
+
+.inNutshell .stages {
+  width: 20%;
+  float: left;
+ 
+}
+.inNutshell .stages-summary {
+  width: 80%;
+  float: right;
+  
+}
+
+.inNutshell .stages-summary ul:last-child {
+  border-bottom:  1px #808285 dashed;
+}
+
+.clr{
+  clear: both; /*did not understand that properly*/
+} 
+
+.extra {
+  /* margin: auto; */
+  height: 150px;
+  width: 100%;
+  padding: 30px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  background-color: #d4d4d4;
+}
+

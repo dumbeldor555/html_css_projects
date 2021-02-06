@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  background-color: beige;
+}
+
+/* utility styling */
+.btn {
+  border: 1px black solid;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  transition: background-color .4s ease-in;
+}
+
+.btn:hover {
+  background: #DFE3EE;
+}
+/* utility styling */
+
+/* container styling  */
+
+.container {
+  padding: 0 18rem;
+  box-shadow: black;
+  margin-bottom: 7rem;
+}
+
+
+
+.container .intro {
+  display: flex;
+  height: 120vh;
+}
+
+
+
+.container .intro .img {
+  flex: 3;
+  background: url('./images/markus-lompa-e6UGI3lqIxs-unsplash.jpg') no-repeat
+  center center/cover;
+}
+
+/* text styling in .intro text */
+
+.container .intro .text {
+  background: #fff;
+  text-align: center;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .intro .text h1 {
+  padding: 0 1rem;
+  margin-bottom: 1rem;  
+}
+
+.container .intro .text h3 {
+color: #444444;
+margin-bottom: 2rem;
+}
+
+.container .intro .text a {
+  text-decoration: none;
+  color: black;
+}
+
+.container .sdetails {
+  height: 8vh;
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: .8rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* img box and text box */
+
+.imgBox {
+height: 80vh;
+}
+
+.textBox {
+  height: 15vh;
+  background: #C0C5CE;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.textBox h2 {
+  font-size: 1.1rem;
+}
+
+.textBox p {
+  font-size: .9rem;
+}
+
+.img1 {
+background: url('./images/luca-zanon-X0OoHrPvgXE-unsplash.jpg') no-repeat
+center center/cover;
+}
+
+.img2 {
+  background: url('./images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg') no-repeat
+center center/cover;
+}
+
+.img3 {
+  background: url('./images/blake-richard-verdoorn-cssvEZacHvQ-unsplash.jpg') no-repeat
+center center/cover;
+}
+
+.img4 {
+  background: url('./images/qingbao-meng-01_igFr7hd4-unsplash.jpg') no-repeat
+center center/cover;
+}
+
+.img5 {
+  background: url('./images/vincent-van-zalinge-vUNQaTtZeOo-unsplash.jpg') no-repeat
+center center/cover;
+}
+
+span {
+  font-weight: bolder;
+}
+
+body .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body .bottom h1 {
+  color: #444444;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+body .bottom p {
+  line-height: 1.9rem;
+}
+
+body .bottom {
+  margin-bottom: 4rem;
+}

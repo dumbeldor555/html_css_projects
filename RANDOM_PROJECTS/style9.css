@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito';
+
+}
+
+/* utility classes */
+
+
+/* sctions styling */
+
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('./images/marcelo-quinan-R3pUGn5YiTg-unsplash.jpg') no-repeat 
+  center center/cover;
+  color: #fff;
+  text-align: center;
+}
+
+#section2 {
+  height: 40vh;
+  background: url('./images/space\ \(2\).jpg') no-repeat
+  center center/cover ;
+  color: #fff;
+  text-align: center;
+}
+
+#section3 {
+  height: 40vh;
+  background: url('./images/space\ \(3\).jpg') no-repeat
+  center center/cover ;
+  color: #fff;
+  text-align: center;
+}
+
+#section4 {
+  display: flex;
+  height: 40vh;
+  display: flex;
+  color: #fff;
+}
+
+/* box styling */
+
+#section4 .box1, #section4 .box2, #section4 .box3 {
+flex: 1;
+font-size: 1.4rem;
+text-align: center;
+}
+
+#section4 .box1 p, #section4 .box2 p, #section4 .box3 p {
+  padding: 4rem;
+} 
+
+#section4 .box1 {
+ background: url('./images/volcano.jpg') no-repeat
+ center center/cover;
+}
+
+#section4 .box2 {
+  background: url('./images/building.jpg') no-repeat
+  center center/cover;
+}
+
+#section4 .box3 {
+  background: url('./images/space\ \(1\).jpg') no-repeat
+  center center/cover;
+}
+
+
+/* text styling */
+
+#section1 h1 {
+  font-size: 3rem;
+}
+
+#section1 p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+#section2 p, #section3 p {
+  padding: 4rem;
+  font-size: 1.4rem;
+}
+
+/* button */
+
+
+.btn {
+  background:transparent; 
+  border-style: none;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  color: #fff;
+  height: 55px;
+  padding: 0 1rem;
+  border: #fff solid 1px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #6EF2AC;
+  color: #333;
+}

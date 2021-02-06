@@ -1,0 +1,81 @@
+
+/* sections  */
+
+#section1 h1, #section1 p, #section .btn {
+  padding: 0 6rem;
+  text-align: center;
+}
+
+#section1 h1 {
+  padding: 2rem 0;
+}
+
+.btn {
+  margin-bottom: 3rem;
+}
+
+#section1 {
+  height: 60%;
+}
+
+
+#section3 {
+  height: 200vh;
+  background: #333;
+  display: block;
+  padding: 2rem 0;
+  }
+
+#section4 {
+  background: #F7F7F7;
+  height: 30vh;
+ }
+
+#section5 {
+  height: 100%;
+  display: block;
+}
+
+#section6 {
+  height: 20vh;
+  display: block;
+}
+
+
+/* text styling */
+
+#section2 .bisector {
+display: block;
+text-align: center;
+}
+
+#section2 h1, #section4 h1,#section5 h1 {
+  display: block;
+  font-size: 1.3rem;
+  padding-top: 1.4rem;
+  padding-bottom: 2rem;
+}
+
+
+#section2 p, #section4 p, #section5 p {
+  font-size: 1.08rem;
+  padding: 1rem;
+  line-height: 1.2rem;
+}
+
+#section6 h2{
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+/* height */
+
+#section3 .web, #section3 .mobile, #section3 .tech {
+height: 31%;
+width: 80%;
+margin: auto;
+}
+
+
+

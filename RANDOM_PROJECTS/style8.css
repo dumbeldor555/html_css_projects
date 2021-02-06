@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* utiliy classes */
+.bisector {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: aqua;
+}
+
+
+/* section styling */
+
+#section1 {
+  height: 65vh;
+  background: url('./images/massimiliano-morosinotto-Q9BRSRcY7yM-unsplash.jpg') no-repeat 
+  center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#section2 {
+background: #F7F7F7;
+height: 35vh;
+}
+
+#section3 {
+height: 80vh;
+background: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#section4 {
+background: #F7F7F7;
+height: 40vh;
+}
+
+#section5 {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+}
+
+#section6 {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #0D0079;
+  
+}
+
+/* button */
+
+.btn {
+  background: #333;
+  border-style: none;
+  opacity: .8;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  color: #fff;
+  height: 55px;
+  padding: 0 1rem;
+  border: #F7F7F7 solid 1px;
+}
+
+.btn:hover {
+  background: #F7F7F7;
+  color: #333;
+}
+
+/* text styling */
+
+#section1 h1{
+color: #fff;
+font-size: 2.2rem;
+}
+
+#section1 p {
+color: #fff;
+font-size: 1.3rem;
+line-height: 1.8rem;
+text-align: center;
+}
+
+#section2 h1, #section4 h1,#section5 h1 {
+  display: block;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #333;
+  padding: 2rem 0;
+}
+
+#section4 h1 {
+  padding: 3.8rem 0;
+}
+
+#section2 p, #section4 p, #section5 p {
+  text-align: center;
+  color: #333;
+  font-size: 1.3rem;
+  padding: 2rem;
+  line-height: 1.8rem;
+}
+
+#section5 h1, #section5 p,#section6  {
+  color: #fff;
+}
+
+#section5 p {
+  padding: 1rem;
+}
+
+#section4 p {
+  padding: 0rem;
+}
+
+#section3 .text {
+  flex: 6;
+  background: #fff;
+  color: #333;
+  text-align: center;
+}
+
+#section3 .text h2 {
+  padding: 1.5rem 0;
+}
+
+#section3 .text p {
+  padding: 1.5rem 0;
+  line-height: 1.8rem;
+}
+
+
+/* section3 styling */
+
+.web,.mobile,.tech {
+width: 20%;
+height: 90%;
+border: solid .4px;
+margin: 0 1.5rem;
+display: flex;
+flex-direction: column;
+
+/* margin: 2rem; */
+}
+
+ #section3 .web .img1 {
+  flex: 4;
+  background: url('./images/webDevelopment\ \(1\).jpg') no-repeat 
+  center center/cover;
+}
+
+#section3 .mobile .img2 {
+  flex: 4;
+  background: url('./images/mobileWeb.jpg') no-repeat 
+  center center/cover;
+}
+
+#section3 .tech .img3 {
+  flex: 4;
+  background: url('./images/marketing\ \(1\).jpg') no-repeat 
+  center center/cover;
+}
+
+/* section 5 styling */
+
+#section5 .box1, #section5 .box2 {
+width: 100%;
+}
+
+#section5 .box1 {
+  background:#0392CF ;
+}
+
+#section5 .box2 {
+  background:#333 ;
+}
+
+
+
+
+

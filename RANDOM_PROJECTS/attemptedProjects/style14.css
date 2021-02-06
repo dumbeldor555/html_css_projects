@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto' , sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #333;
+  padding: .8rem;
+}
+
+ 
+/* main styling */
+
+#container {
+  display: flex;
+   height: 100%;
+}
+
+#container  hr {
+  position: fixed;
+  top: 0;
+  left: 16rem;
+
+}
+
+#container .index {
+  flex: 2;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+}
+
+#container .main-page {
+  flex: 8;
+ /* display: block;   */
+}

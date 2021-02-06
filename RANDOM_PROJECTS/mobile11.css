@@ -1,0 +1,123 @@
+/* section2 */
+
+#section2 {
+  height: 80vh;
+  
+}
+
+#section2 h1,
+#section2 h2,
+#section2 p {
+margin: 1.6rem 0;
+}
+
+#section2 h1 {
+  font-size: 1.6rem;
+}
+
+#section2 h2 {
+  font-size: 1.3rem;
+}
+
+#section2 p {
+  font-size: .9rem;
+  line-height: 1.4rem;
+}
+
+/* section3  */
+
+#section3 {
+  height: 120vh;
+}
+
+#section3 h1 {
+  font-size: 1.6rem;
+  padding: 2rem 0;
+}
+
+#section3 h2 {
+  font-size: 1.1rem;
+  padding: 1rem 0;
+  line-height: .1.1rem;
+}
+
+.redbtn {
+  background-color: #D11141;
+  padding: 1rem .8rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: .7rem;
+}
+
+#section3 div  {
+  margin-top: 1rem;
+  margin-bottom: 1.7rem;
+}
+
+/* section4 */
+
+#section4 h1 {
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+#section4 p {
+  padding-top: 2.7rem;
+  font-size: 1rem;
+  line-height: 1.1rem;
+}
+
+/* section5 */
+
+#section5 {
+  height: 50vh;
+
+}
+
+#section5 h2 {
+  padding-top: 1rem;
+  font-size: 1.7rem;
+  margin-bottom: 1.6rem;
+}
+
+#section5 p {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+/* section6 */
+
+
+#section6 {
+  height: 70vh;
+}
+
+#section6 .text h1{
+  padding-top: 1.3rem;
+  font-size: 1.6rem;
+  padding-bottom: 1.1rem;
+}
+
+#section6 .text p {
+  line-height: 1.2rem;
+  font-size: 1rem ;
+}
+
+/* section7 */
+
+#section7 {
+  padding: 1rem .8rem;
+  height: 140vh;
+  display: block;
+}
+
+#section7 .boxs{
+  padding: 1.5rem;
+  width: 70%;
+}
+
+/* #section7 .boxs a{
+  line-height: rem;
+} */
+

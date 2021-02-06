@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis' ;
+}
+
+body .label {
+  font-weight: 700;
+}
+
+.wbackground {
+background-color: blanchedalmond;
+
+}
+
+.container {
+  border: black solid 1px;
+  border-radius: 5px;
+  margin: 20px 150px;
+  background-color: ;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 23px;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.formbox1 {
+  border: black solid 1px;
+  border-radius: 5px;
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
+  height: 400px;
+  margin: 15px 50px;
+}
+
+.container .formbox1 label {
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+
+.container .formbox1 input {
+  width: 20%;
+  margin-left: 20px;
+  padding: 4px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+.formbox1 form {
+  margin: 15px 15px;
+ 
+}
+
+.formbox2  label{
+  margin: 20px ;
+}
+
+ .container .formbox2 p {
+  font-family: 'Julius Sans One' ;
+  display: inline;
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.formbox3 {
+  height: 50px;
+}
+.formbox3 label {
+  margin: 10px 10px;
+}
+
+.formbox3 option {
+  font-family: 'Julius Sans One' ;
+}
+
+.formbox3 .bg {
+  background-color: #C0C5CE ;
+  border-radius: 5px;
+}
+
+.formbox4 input{
+  height: 50px;
+}
+
+.formbox4 {
+  height: 500px;
+}
+
+.btn {
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: red;
+  margin: 10px 10px;
+}

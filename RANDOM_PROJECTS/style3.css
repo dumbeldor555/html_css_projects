@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: solid 1px black;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  background-color: #C0C5CE;
+}
+
+.container .box1 {
+padding-top: 60px;
+text-align: center;
+
+}
+
+.container .box1 h1 {
+  font-family: 'Bellefair' ;
+  line-height: 3rem;
+
+}
+
+.container .box1 h2 {
+  font-family: 'Assistant' ;
+  font-weight: 200;
+}
+
+.container .box2 {
+  border: solid black 1px;
+  border-radius: 5px;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.portriat {
+  margin: auto;
+  width: 60%;
+  border: black solid 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.portriat img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+
+.portriat h3 {
+  width: 70%;
+  border: black solid 1px;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+
+.timeLine {
+  
+  text-align: center;
+}
+
+.timeLine h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.timeLine .link1 {
+  font-family: 'Pompiere' ;
+}
+
+.timeLine h4 {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.timeLine ul>li {
+  margin-bottom: 18px ;
+  list-style-position: inside;
+  padding-left: 20px;
+
+ 
+  /* line-height: 1.5rem; */
+}
+
+
+.timeLine ul span {
+  font-weight: bold;
+ 
+}
